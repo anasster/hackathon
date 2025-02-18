@@ -1,0 +1,21 @@
+
+services:
+  react-app:
+    build:
+      context: ./frontend  # Path to React app directory
+    ports:
+      - "3000:80"  # Map host port 3000 to container port 80 (since Nginx serves on 80)
+    depends_on:
+      - python-app
+    volumes:
+      - ./frontend:/app  # Optional: Helps with development
+    restart: always  # Ensures the container restarts on failure
+
+  python-app:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"  # 🔥 Fix: Map container's 8000 to host 8000
+    volumes:
+      - ./backend:/app
+    restart: always
