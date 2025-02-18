@@ -16,7 +16,7 @@ There is a bunch of different technologies utilized when it comes to frontend an
 - React.js
 
 <ins>Backend</ins>:
-- Python (Fast API)
+- Python (FastAPI)
 
 <ins>Smart Contracts</ins>:
 - Solidity
