@@ -52,7 +52,7 @@ Let's break it down real quick. First of all as it metnioned above a user is rew
 Goal of the application is the creation of the decentralized digital identity of a user by integrating the corresponding topical authorities for authenticity verification of uploaded credentials. In addition, it rewards the user with a SBT converting them to a certified citizen. Basically, claiming the SBT ensures the community that the user is credible. Their association with the SBT indicates the completion of the identity's uploading process. The SBT hoder has now gained a reputation for being a certfied citizen (not being a scammer) enabling them to take part in events. Such events coulbe be digital voting, elections, decentralized finance (DeFi) etc. where the certification of a user should be more than requisite in order to take part. This application is the first step of building an entire decentralized digital wallet and assigning something like a reputation to the user. Future expantions might introduce a reputation system for a user by monitoring statistics for their trasnactions, such as number of transaction, fees payed etc. statistics that can be used for DeFi dapps.  
 </div>
 
-# Application's Backend
+## Application's Backend
 
 For dependencies, navigate to your project folder, and create a virtual environment:
 ```sh
