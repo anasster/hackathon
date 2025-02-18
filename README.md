@@ -1,6 +1,6 @@
 <div align="justify">
   
-## Application Overview
+## Application's Overview
 
 The goal of this project is to create the decentralized digital identiy of a user. To do so two different blockchain networks are utilized. The first one is __Nillion__ network, an upcoming network specialized in decentralized data storing. The second one is the __Ethereum__ network, a pioneer netwrok best known for its transaction capabilities.
 <br><br>
